@@ -67,6 +67,7 @@ header {
 }
 .landing {
 }
-// .services{
-//   grid-template-columns: repeat(auto-fit,minmax(320px ,1fr));
-// }
+.services-boxs {
+  // grid-template-columns: 1fr 1fr;
+  // gap: 20px;
+}
