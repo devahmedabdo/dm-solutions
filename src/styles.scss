@@ -24,6 +24,6 @@
 }
 @layer components {
   .btn {
-    @apply px-4 py-2 font-medium text-lg bg-lightGray text-white rounded-lg hover:shadow-xl duration-300;
+    @apply px-6 py-2 font-medium text-lg bg-lightGray text-white rounded-lg hover:shadow-xl duration-300;
   }
 }

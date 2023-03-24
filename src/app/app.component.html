@@ -50,7 +50,7 @@
     </h1>
     <div class="flex justify-between flex-wrap gap-10 md:gap-3">
       <div class="mx-auto flex flex-col items-center md:items-start justify-between ">
-        <p class="leading-9 max-w-[550px]  font-medium text-sm md:text-[22px]">{{'At our
+        <p class="leading-8 max-w-[550px]  font-medium text-sm md:text-[22px]">{{'At our
           marketing agency, we partner
           with
           businesses to craft
@@ -108,7 +108,8 @@
       <div class=" mx-auto rounded-2xl bg-white text-darkGray px-5 py-8 flex flex-col gap-5 "
         *ngFor="let service of services">
         <img class="w-14" src="{{'assets/services/'+service.icon}}" alt="">
-        <h3 [ngClass]="{'md:text-[30px]':lang=='en','md:text-2xl':lang=='fr'}" class="text-[15px] font-bold text-black">
+        <h3 [ngClass]="{'md:text-[30px]':lang=='en','md:text-2xl':lang=='fr'}"
+          class="text-[15px] font-bold text-black uppercase">
           {{service.name |
           translate}}
         </h3>
