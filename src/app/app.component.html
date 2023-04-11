@@ -27,10 +27,13 @@
         </li>
       </ul>
     </nav>
-    <button class="w-10">
+    <a href="https://calendar.app.google/G5W7cYjTQZro9hXS8" class="btn hidden md:block">
+      Schedule a call
+    </a>
+    <!-- <button class="btn">
       <img *ngIf="lang == 'fr'" (click)="setLang('en')" src="assets/usa.svg" alt="">
       <img *ngIf="lang == 'en'" (click)="setLang('fr')" src="assets/fr.svg" alt="">
-    </button>
+    </button> -->
     <div class="menu-icon w-8 h-8 flex flex-col duration-300 gap-2 items-end" [ngClass]="{active:activeMenu}"
       (click)="reflectActiveMenu()">
       <span></span>

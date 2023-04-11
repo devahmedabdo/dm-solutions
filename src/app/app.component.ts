@@ -17,13 +17,13 @@ export class AppComponent implements AfterViewInit {
   }
   // lang
   lang: string = 'en';
-  setLang = async (lang: any) => {
-    this.lang = lang;
-    document.documentElement.lang = lang;
-    localStorage.setItem('lang', lang);
-    this.translate.setDefaultLang(lang);
-    this.translate.use(lang);
-  };
+  // setLang = async (lang: any) => {
+  //   this.lang = lang;
+  //   document.documentElement.lang = lang;
+  //   localStorage.setItem('lang', lang);
+  //   this.translate.setDefaultLang(lang);
+  //   this.translate.use(lang);
+  // };
   services: any = [
     {
       name: 'SOCIAL MEDIA MARKETING',
@@ -76,6 +76,6 @@ export class AppComponent implements AfterViewInit {
     window.addEventListener('scroll', () => {
       this.activeMenu = false;
     });
-    this.setLang(localStorage.getItem('lang') || 'en');
+    // this.setLang(localStorage.getItem('lang') || 'en');
   }
 }

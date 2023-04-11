@@ -21,7 +21,7 @@ header {
       }
     }
   }
-  button {
+  .btn {
     @media (max-width: 860px) {
       @apply ml-auto mr-2;
     }
@@ -64,10 +64,4 @@ header {
       }
     }
   }
-}
-.landing {
-}
-.services-boxs {
-  // grid-template-columns: 1fr 1fr;
-  // gap: 20px;
 }
